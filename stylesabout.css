@@ -1,4 +1,8 @@
 
+
+main{
+  font-family: 'Montserrat', sans-serif;
+}
 .navbar-brand {
   font-size: 2.5em;
   color: #5f9ea0;
@@ -8,8 +12,11 @@
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
 .container1{
-  width: 95vw;
+  width: 100vw;
   margin:auto;
 }
 .container2{
@@ -29,23 +36,15 @@
   background-size: cover;
 }
 
-/* Trying to make a semi-transparent background color overlay background img */
-/* .vellum{
-  background-image: url(./mountains.jpg);
-  width: 100%;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-}
 
-.vellum::after{
-    content: "";
-    background: rgba(23, 87, 34, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-} */
+
+.background {
+  background: linear-gradient(rgba(11, 31, 14,.95), rgba(0,0,0,.5)),
+    url(./mountains.jpg);
+  height: 100vh;
+  background-size: cover;
+
+}
 
 .thumbnail {
   text-align: center;
@@ -74,4 +73,19 @@
   border-radius: 1.5em;
   border: 10px solid transparent;
   margin-top: 1.25em;
+
+}
+
+.nameplate{
+  font-weight: bold;
+  background-color: #cbd0c9b8;
+  color: #1b1e21;
+  padding-top: .5em;
+  border-radius: 1.5em;
+  border: 10px solid transparent;
+  margin-top: 30vh;
+}
+
+.nameplate h2{
+  font-size: 4em;
 }
