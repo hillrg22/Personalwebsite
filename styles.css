@@ -1,5 +1,7 @@
+
 .navbar-brand {
   font-size: 2.5em;
+  color: #5f9ea0;
 }
 
 .centered {
@@ -10,6 +12,10 @@
   width: 95vw;
   margin:auto;
 }
+.container2{
+  width: 90vw;
+  margin:auto;
+}
 
 .navbar-dark{
   background: #2b5222;
@@ -18,4 +24,32 @@
 .mountains{
   background-image: url(./mountains.jpg);
   width: 100vw;
+}
+.thumbnail {
+  text-align: center;
+}
+.picture{
+  text-align: center;
+}
+
+.thumbnail>img{
+  border-radius: 5%;
+  height: 400px;
+  width: 600px;
+}
+
+.picture>img{
+  border-radius: 5%;
+  height: 500px;
+  width: 350px;
+}
+
+
+.green{
+  background-color: #cbd0c9b8;
+  color: #1b1e21;
+  padding: 0em;
+  border-radius: 1.5em;
+  border: 10px solid transparent;
+  margin-top: 1.25em;
 }
