@@ -23,7 +23,9 @@
 
 .mountains{
   background-image: url(./mountains.jpg);
-  width: 100vw;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .thumbnail {
   text-align: center;
