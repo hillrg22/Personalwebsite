@@ -19,6 +19,7 @@
 
 .navbar-dark{
   background: #2b5222;
+
 }
 
 .mountains{
@@ -27,6 +28,25 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* Trying to make a semi-transparent background color overlay background img */
+/* .vellum{
+  background-image: url(./mountains.jpg);
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.vellum::after{
+    content: "";
+    background: rgba(23, 87, 34, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} */
+
 .thumbnail {
   text-align: center;
 }
@@ -47,7 +67,7 @@
 }
 
 
-.green{
+.gray1{
   background-color: #cbd0c9b8;
   color: #1b1e21;
   padding: 0em;
