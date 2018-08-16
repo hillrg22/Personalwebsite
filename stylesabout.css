@@ -52,25 +52,29 @@ main{
 
 }
 
-.thumbnail {
+.about-landscape {
   text-align: center;
 }
-.picture{
+.about-portrait{
   text-align: center;
 }
 
-.thumbnail>img{
+.about-landscape>img{
   border-radius: 5%;
   height: 400px;
   width: 600px;
 }
 
-.picture>img{
+.about-portrait>img{
   border-radius: 5%;
   height: 500px;
   width: 350px;
 }
 
+.thumbnail{
+  height: 150px;
+  width: 200px;
+}
 
 .gray1{
   background-color: #cbd0c9b8;
@@ -94,4 +98,8 @@ main{
 
 .nameplate h2{
   font-size: 4em;
+}
+
+.inline {
+  display: inline-block;
 }
