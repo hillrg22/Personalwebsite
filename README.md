@@ -2,7 +2,7 @@
 
 This is my personal website project. I have created a splash page, an about me page, and I have begun a projects page to publish future projects.
 
-![picture](./splash-page-screenshot.png)
+![picture](splash-page-screenshot.png)
 
 ## Built With
 
@@ -22,7 +22,7 @@ This is my personal website project. I have created a splash page, an about me p
 
 [Rob Hill](http://real-ticket.surge.sh/)
 
-##Wireframe
+## Wireframe
 
-![picture](./splash-page-wireframe.jpg)
-![picture](./personal-website-wireframe.jpg)
+![picture](splash-page-wireframe.jpg)
+![picture](personal-website-wireframe.jpg)
